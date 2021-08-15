@@ -1,0 +1,37 @@
+/* Universal Selector */
+* {
+    box-sizing:border-box;
+}
+
+/* Flexbox Style */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(11, 88, 107);
+    color:blanchedalmond;
+}
+
+.main-header {
+    font-size: 2em;
+    justify-content: space-around;  
+    background-color: rgb(60, 23, 95); 
+    color: crimson;
+    flex-grow: 1;
+}
+
+h1 {
+    align-self: flex-start;
+}
+.main-nav {
+    align-items: flex-end;
+}
+
+
+
+
+/* Element Style */
+
+@media screen {
+    
+}
